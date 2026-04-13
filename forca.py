@@ -5,18 +5,18 @@ import os
 def jogar_forca():
     print("JOGO DA FORCA")
     print("Escolha o tema:")
-    print("1 - Animais")
-    print("2 - Culinaria")
-    print("3 - Tecnologia")
+    print("1 - Ferro Velho")
+    print("2 - Alimentos")
+    print("3 - Mercado")
     
     tema = input("Digite o número do tema (1-3): ")
     
     if tema == '1': 
         arquivo = 'animais.txt'
     elif tema == '2': 
-        arquivo = 'culinaria.txt'
+        arquivo = 'ferro_velho.txt'
     elif tema == '3': 
-        arquivo = 'tecnologia.txt'
+        arquivo = 'mercado.txt'
     else:
         print("Tema inválido! Voltando ao menu.")
         return
